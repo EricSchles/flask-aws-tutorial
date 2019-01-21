@@ -1,5 +1,4 @@
-from application import db
-from application.models import Data
+from app import db
 
 db.create_all()
 
